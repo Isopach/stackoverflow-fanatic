@@ -7,9 +7,32 @@ phantom.injectJs('node_modules/casperjs/bin/bootstrap.js');
 
 var LOGIN_URLS = [
     'https://stackoverflow.com/users/login',
-    'https://programmers.stackexchange.com/',
-    'https://superuser.com/',
-    'https://codereview.stackexchange.com/'
+    'https://meta.stackoverflow.com/users/4420129/yuu',
+    'https://gaming.stackexchange.com/users/login/',
+    'https://gaming.meta.stackexchange.com/users/100465/yuu',
+    'https://japanese.stackexchange.com/users/login/',
+    'https://japanese.meta.stackexchange.com/users/9861/',
+    'https://security.stackexchange.com/users/login/',
+    'https://security.meta.stackexchange.com/users/169503/yuu',
+    'https://area51.stackexchange.com/users/login/',
+    'https://chinese.stackexchange.com/users/login/',
+    'https://chinese.meta.stackexchange.com/users/12131/yuu',
+    'https://webapps.stackexchange.com/users/login/',
+    'https://webapps.meta.stackexchange.com/users/107705/yuu',
+    'https://meta.stackexchange.com/users/login/',
+    'https://softwareengineering.stackexchange.com/users/login/',
+    'https://softwareengineering.meta.stackexchange.com/users/317477/yuu',
+    'https://travel.stackexchange.com/users/login/',
+    'https://travel.meta.stackexchange.com/users/54667/yuu',
+    'https://chess.stackexchange.com/users/login/',
+    'https://chess.meta.stackexchange.com/users/15402/yuu',
+    'https://codegolf.stackexchange.com/users/login/',
+    'https://codegolf.meta.stackexchange.com/users/63257/yuu',
+    'https://superuser.com/users/login/',
+    'https://meta.superuser.com/users/530249/yuu',
+    'https://ja.stackoverflow.com/users/login/',
+    'https://ja.meta.stackoverflow.com/users/19906',
+    
 ];
 var start = +new Date();
 
